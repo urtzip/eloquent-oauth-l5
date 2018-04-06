@@ -1,5 +1,5 @@
 {
-    "name": "adamwathan/eloquent-oauth-l5",
+    "name": "urtzip/eloquent-oauth-l5",
     "description": "Stupid simple OAuth authentication with Laravel and Eloquent",
     "authors": [
     {
@@ -8,9 +8,15 @@
     }
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/urtzip/eloquent-oauth"
+        }
+    ],
     "require": {
         "php": ">=5.5.0",
-        "adamwathan/eloquent-oauth": "dev-master",
+        "urtzip/eloquent-oauth": "dev-master",
         "guzzlehttp/guzzle": "^6.2.1"
     },
     "autoload": {
